@@ -1,0 +1,82 @@
+/* Styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Title */
+h1 {
+    color: #333;
+}
+
+/* Input and button container styling */
+.input-container {
+    margin-top: 20px;
+}
+
+#taskInput {
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#addTaskBtn {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#addTaskBtn:hover {
+    background-color: #218838;
+}
+
+/* Task list container styling */
+#taskListContainer {
+    margin-top: 20px;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Task item styling */
+.task-item {
+    background-color: #ffffff;
+    margin: 10px auto;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+.task-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Remove button styling */
+.remove-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background-color: #c82333;
+}
